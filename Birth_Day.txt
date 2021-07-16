@@ -1,0 +1,26 @@
+from datetime import date
+
+def Bdy(x):
+    if x == 0:
+        print("weekday on your birth day is : monday")
+    if x == 1:
+        print("weekday on your birth day is : tuesday")
+    if x == 2:
+        print("weekday on your birth day is : wednesday")
+    if x == 3:
+        print("weekday on your birth day is : thursday")
+    if x == 4:
+        print("weekday on your birth day is: friday")
+    if x == 5:
+        print("weekday on your birth day is : saturday")
+    if x == 6:
+        print("weekday on your birth day is : sunday")
+        
+a = int(input("entre a year of birth: "))
+b = int(input("entre a month of birth: "))
+c = int(input("entre a day of the birth: "))
+
+d = date(a,b,c)
+var = d.weekday()
+Bdy(var)        
+        
