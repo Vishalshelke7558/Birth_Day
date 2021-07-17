@@ -1,3 +1,5 @@
+# program for checking weekday on our birth_day by using python
+
 from datetime import date
 
 def Bdy(x):
